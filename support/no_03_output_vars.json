@@ -1,0 +1,187 @@
+{
+    "clearance":{
+        "sheet_name": "SPB",
+        "start_row": 10,
+        "ranges": {"title":["A1:T1","A2:T2"],"sub_title":["A5","C5","A6","C6","T6"],"header":["A8:A9","B8:B9","C8:C9","D8:D9","E8:F8",
+                    "G8:G9","H8:H9","I8:I9","J8:J9","K8:K9","L8:L9","M8:N8","O8:P8","Q8:S8","T8:T9"],"sub_header":["E9","F9","M9","N9",
+                    "O9","P9","Q9","R9:S9"],"filler":["A10","B10","C10","D10","E10","F10","G10","H10","I10","J10","K10","L10","M10",
+                    "N10","O10","P10","Q10","R10","S10","T10"]},
+        "texts": {"title":["LAPORAN BULANAN PENGGUNAAN SPB (SURAT PERSETUJUAN BERLAYAR)","KELUAR / MASUK KAPAL"],"sub_title":["NAMA KANTOR",
+                    ": KANTOR UNIT PENYELENGGARA PELABUHAN KELAS III PULAU BUNYU","PROVINSI",": KALIMANTAN UTARA","BULAN"],"header":["NO.",
+                    "NOMOR SERI SPB","REG. PPK 27","REG. PPK 29","NAMA","JUMLAH ABK","BENDERA","GT","NO. SIPI","NO. SIKPI","NO. SLO","TIBA",
+                    "BERANGKAT","MUAT","PERUSAHAAN DAN / ATAU AGEN KAPAL"],"sub_header":["KAPAL","NAKHODA","ASAL","TANGGAL","TUJUAN","TANGGAL",
+                    "JENIS BARANG","JUMLAH"],"filler":["(01)","(02)","(03)","(04)","(05)","(06)","(07)","(08)","(09)","(10)","(11)","(12)","(13)",
+                    "(14)","(15)","(16)","(17)","(18)","(19)","(20)"]},
+        "pixel_size": {"default_height": 20, "row":[24.75,24.75,24.75,24.75,24.75,24.75,24.75,26.25,33.75,18.75],"column": [10,32,9,9,65,55,13,35,15,
+                       10,10,10,35,21,35,21,40,12,12,48]},
+        "final_variables": ["NO","SPB TOLAK","PPK 27","PPK 29","NAMA KAPAL","NAKHODA","CREW","BENDERA","GT","NO. SIPI","NO. SIKPI","NO. SLO","ASAL","WAKTU TIBA",
+                      "TUJUAN","WAKTU TOLAK","MUATAN MUAT","JUMLAH MUATAN MUAT","SATUAN MUATAN MUAT","PEMILIK / AGEN"]
+    },
+    
+    "sib_kecil":{
+        "sheet_name": "SIB KECIL",
+        "start_row": 8,
+        "ranges": {"title":["F1:M1"],"sub_title":["A1:D1","A2:D2","A3:D3","O3:P3"],"header":["A5:A6","B5:D5","E5:E6","F5:F6","G5:G6",
+                    "H5:H6","I5:K5","L5:N5","O5:O6","P5:P6"],"sub_header":["B6","C6","D6","I6","J6","K6","L6","M6","N6"],"filler":
+                    ["A7","B7","C7","D7","E7","F7","G7","H7","I7","J7","K7","L7","M7","N7","O7","P7"]},
+        "texts": {"title":["DAFTAR KAPAL YANG KELUAR MASUK DI WILAYAH UPP PULAU BUNYU"],"sub_title":["KEMENTERIAN PERHUBUNGAN",
+                    "DIREKTORAT JENDERAL PERHUBUNGAN LAUT","UNIT PENYELENGGARA PELABUHAN KELAS III PULAU BUNYU","BULAN"],"header":["NO.",
+                    "N A M A","BERAT KOTOR (GT)","BERAT BERSIH (NT)","TANDA SELAR MENURUT PAS TAHUNAN","TEMPAT PENDAFTARAN KAPAL",
+                    "T I B A","B E R A N G K A T","KEAGENAN/CHARTER/PEMILIK","KET."],"sub_header":["KAPAL","BENDERA","NAKHODA","WAKTU",
+                    "ASAL","BERMUATAN/KOSONG","WAKTU","TUJUAN","BERMUATAN/KOSONG"],"filler":["(01)","(02)","(03)","(04)","(05)",
+                    "(06)","(07)","(08)","(09)","(10)","(11)","(12)","(13)","(14)","(15)","(16)"]},
+        "pixel_size": {"default_height": 30, "row":[16.5,16.5,16.5,16.5,26.25,75,16.5],"column": [5.5,45.5,19,40.5,9.5,9.5,13,20.5,21.5,23.5,13,21.5,23.5,13,50.5,12]},
+        "final_variables": ["NO","NAMA KAPAL","BENDERA","NAKHODA","GT","NT","TANDA SELAR","TEMPAT PENDAFTARAN","PEMILIK / AGEN","WAKTU TIBA","ASAL","TIBA ISI / KOSONG",
+                      "WAKTU TOLAK","TUJUAN","TOLAK ISI / KOSONG","KET"]
+    },
+
+    "sib_besar":{
+        "sheet_name": "SIB BESAR",
+        "start_row": 8,
+        "ranges": {"title":["F1:M1"],"sub_title":["A1:D1","A2:D2","A3:D3","O3:P3"],"header":["A5:A6","B5:D5","E5:E6","F5:F6","G5:G6",
+                    "H5:H6","I5:K5","L5:N5","O5:O6","P5:P6"],"sub_header":["B6","C6","D6","I6","J6","K6","L6","M6","N6"],"filler":
+                    ["A7","B7","C7","D7","E7","F7","G7","H7","I7","J7","K7","L7","M7","N7","O7","P7"]},
+        "texts": {"title":["DAFTAR KAPAL YANG KELUAR MASUK DI WILAYAH UPP PULAU BUNYU"],"sub_title":["KEMENTERIAN PERHUBUNGAN",
+                    "DIREKTORAT JENDERAL PERHUBUNGAN LAUT","UNIT PENYELENGGARA PELABUHAN KELAS III PULAU BUNYU","BULAN"],"header":["NO.",
+                    "N A M A","BERAT KOTOR (GT)","BERAT BERSIH (NT)","TANDA SELAR MENURUT PAS TAHUNAN","TEMPAT PENDAFTARAN KAPAL",
+                    "T I B A","B E R A N G K A T","KEAGENAN/CHARTER/PEMILIK","KET."],"sub_header":["KAPAL","BENDERA","NAKHODA","WAKTU",
+                    "ASAL","BERMUATAN/KOSONG","WAKTU","TUJUAN","BERMUATAN/KOSONG"],"filler":["(01)","(02)","(03)","(04)","(05)",
+                    "(06)","(07)","(08)","(09)","(10)","(11)","(12)","(13)","(14)","(15)","(16)"]},
+        "pixel_size": {"default_height": 30, "row":[16.5,16.5,16.5,16.5,26.25,75,16.5],"column": [5.5,45.5,19,40.5,9.5,9.5,13,20.5,21.5,23.5,13,21.5,23.5,13,50.5,12]},
+        "final_variables": ["NO","NAMA KAPAL","BENDERA","NAKHODA","GT","NT","TANDA SELAR","TEMPAT PENDAFTARAN","PEMILIK / AGEN","WAKTU TIBA","ASAL","TIBA ISI / KOSONG",
+                      "WAKTU TOLAK","TUJUAN","TOLAK ISI / KOSONG","KET"]
+    },
+
+    "tkii_pelumb":{
+        "sheet_name": "PLBHN BUNYU",
+        "start_row": 12,
+        "ranges": {"title":["D1:Q1","D2:Q2"],"sub_title":["A1:C1","A2:C2","A3:C3","I3","J3","K3","I4","J4","K4","D6:Q6","P7:Q8"],"header":["A9:A10","B9:D9","E9","F9:G9",
+                    "H9","I9:J9","K9:P9","Q9:Q10"],"sub_header":["B10","C10","D10","E10","F10","G10","H10","I10","J10","K10:M10","N10:P10"],
+                    "filler":["A11","B11","C11","D11","E11","F11","G11","H11","I11","J11","K11","L11","M11","N11","O11","P11","Q11"]},
+        "texts": {"title":["LAPORAN  BULANAN  KEGIATAN  OPERASIONAL  DI  PELABUHAN","YANG TIDAK DIUSAHAKAN TK.II UPT"],"sub_title":["KEMENTERIAN PERHUBUNGAN",
+                    "DIREKTORAT JENDERAL PERHUBUNGAN LAUT","UNIT PENYELENGGARA PELABUHAN KELAS III PULAU BUNYU","BULAN",":","NAMA BULAN","TAHUN",":","ANGKA TAHUN","PELABUHAN PULAU BUNYU",
+                    "TKII UPT"],"header":["NO.","N A M A","UKURAN KAPAL","TIBA","TAMBAT","BERANGKAT","BONGKAR / MUAT", "KET"],"sub_header":["KAPAL","BENDERA","PEMILIK/AGEN","GT","WAKTU",
+                    "PELABUHAN ASAL","WAKTU","WAKTU","PELABUHAN TUJUAN","BONGKAR","MUAT"],"filler":["(01)","(02)","(03)","(04)","(05)","(06)","(07)","(08)","(09)","(10)","(11)",
+                    "(12)","(13)","(14)","(15)","(16)","(17)"]},
+        "pixel_size": {"default_height": 30, "row":[24.75,24.75,24.75,24.75,24.75,24.75,24.75,24.75,84.75,50,24.75],"column": [10,85,37,77,16,36.5,42,36.75,36.75,42.5,
+                        80,24,18,80,24,18,15]},
+        "final_variables": ["NO","NAMA KAPAL","BENDERA","PEMILIK / AGEN","GT","WAKTU TIBA","ASAL","WAKTU TAMBAT","WAKTU TOLAK","TUJUAN","MUATAN BONGKAR","JUMLAH MUATAN BONGKAR",
+                      "SATUAN MUATAN BONGKAR","MUATAN MUAT","JUMLAH MUATAN MUAT","SATUAN MUATAN MUAT","LOKASI BONGKAR","KATEGORI"],
+        "summary": {
+            "domestik": {"ranges": ["B","C","D"],"header": ["JUMLAH MUATAN DALAM NEGERI (DOMESTIK)"],"sub_header": ["NAMA MUATAN", "BONGKAR", "MUAT"]},
+            "ekspor": {"ranges": ["F","G","H","I","J"],"header": ["JUMLAH MUATAN LUAR NEGERI (EKSPOR)"],"sub_header": ["NAMA MUATAN", "BONGKAR", "MUAT"]}
+        }
+    },
+
+    "tkii_pepruvb":{
+        "sheet_name": "PEP BUNYU",
+        "start_row": 12,
+        "ranges": {"title":["D1:Q1","D2:Q2"],"sub_title":["A1:C1","A2:C2","A3:C3","I3","J3","K3","I4","J4","K4","D6:Q6","P7:Q8"],"header":["A9:A10","B9:D9","E9","F9:G9",
+                    "H9","I9:J9","K9:P9","Q9:Q10"],"sub_header":["B10","C10","D10","E10","F10","G10","H10","I10","J10","K10:M10","N10:P10"],
+                    "filler":["A11","B11","C11","D11","E11","F11","G11","H11","I11","J11","K11","L11","M11","N11","O11","P11","Q11"]},
+        "texts": {"title":["LAPORAN  BULANAN  KEGIATAN  OPERASIONAL  DI  PELABUHAN","YANG TIDAK DIUSAHAKAN TK.II UPT"],"sub_title":["KEMENTERIAN PERHUBUNGAN",
+                    "DIREKTORAT JENDERAL PERHUBUNGAN LAUT","UNIT PENYELENGGARA PELABUHAN KELAS III PULAU BUNYU","BULAN",":","NAMA BULAN","TAHUN",":","ANGKA TAHUN","TUKS PT. PERTAMINA RU V BUNYU",
+                    "TKII UPT"],"header":["NO.","N A M A","UKURAN KAPAL","TIBA","TAMBAT","BERANGKAT","BONGKAR / MUAT", "KET"],"sub_header":["KAPAL","BENDERA","PEMILIK/AGEN","GT","WAKTU",
+                    "PELABUHAN ASAL","WAKTU","WAKTU","PELABUHAN TUJUAN","BONGKAR","MUAT"],"filler":["(01)","(02)","(03)","(04)","(05)","(06)","(07)","(08)","(09)","(10)","(11)",
+                    "(12)","(13)","(14)","(15)","(16)","(17)"]},
+        "pixel_size": {"default_height": 30, "row":[24.75,24.75,24.75,24.75,24.75,24.75,24.75,24.75,84.75,50,24.75],"column": [10,85,37,77,16,36.5,42,36.75,36.75,42.5,
+                        80,24,18,80,24,18,15]},
+        "final_variables": ["NO","NAMA KAPAL","BENDERA","PEMILIK / AGEN","GT","WAKTU TIBA","ASAL","WAKTU TAMBAT","WAKTU TOLAK","TUJUAN","MUATAN BONGKAR","JUMLAH MUATAN BONGKAR",
+                      "SATUAN MUATAN BONGKAR","MUATAN MUAT","JUMLAH MUATAN MUAT","SATUAN MUATAN MUAT","LOKASI BONGKAR","KATEGORI"],
+        "summary": {
+            "domestik": {"ranges": ["B","C","D"],"header": ["JUMLAH MUATAN DALAM NEGERI (DOMESTIK)"],"sub_header": ["NAMA MUATAN", "BONGKAR", "MUAT"]},
+            "ekspor": {"ranges": ["F","G","H","I","J"],"header": ["JUMLAH MUATAN LUAR NEGERI (EKSPOR)"],"sub_header": ["NAMA MUATAN", "BONGKAR", "MUAT"]}
+        }
+    },
+
+    "tkii_ptssp":{
+        "sheet_name": "PTSSP",
+        "start_row": 12,
+        "ranges": {"title":["D1:Q1","D2:Q2"],"sub_title":["A1:C1","A2:C2","A3:C3","I3","J3","K3","I4","J4","K4","D6:Q6","P7:Q8"],"header":["A9:A10","B9:D9","E9","F9:G9",
+                    "H9","I9:J9","K9:P9","Q9:Q10"],"sub_header":["B10","C10","D10","E10","F10","G10","H10","I10","J10","K10:M10","N10:P10"],
+                    "filler":["A11","B11","C11","D11","E11","F11","G11","H11","I11","J11","K11","L11","M11","N11","O11","P11","Q11"]},
+        "texts": {"title":["LAPORAN  BULANAN  KEGIATAN  OPERASIONAL  DI  PELABUHAN","YANG TIDAK DIUSAHAKAN TK.II UPT"],"sub_title":["KEMENTERIAN PERHUBUNGAN",
+                    "DIREKTORAT JENDERAL PERHUBUNGAN LAUT","UNIT PENYELENGGARA PELABUHAN KELAS III PULAU BUNYU","BULAN",":","NAMA BULAN","TAHUN",":","ANGKA TAHUN","PELABUHAN PULAU BUNYU",
+                    "TKII UPT"],"header":["NO.","N A M A","UKURAN KAPAL","TIBA","TAMBAT","BERANGKAT","BONGKAR / MUAT", "KET"],"sub_header":["KAPAL","BENDERA","PEMILIK/AGEN","GT","WAKTU",
+                    "PELABUHAN ASAL","WAKTU","WAKTU","PELABUHAN TUJUAN","BONGKAR","MUAT"],"filler":["(01)","(02)","(03)","(04)","(05)","(06)","(07)","(08)","(09)","(10)","(11)",
+                    "(12)","(13)","(14)","(15)","(16)","(17)"]},
+        "pixel_size": {"default_height": 30, "row":[24.75,24.75,24.75,24.75,24.75,24.75,24.75,24.75,84.75,50,24.75],"column": [10,85,37,77,16,36.5,42,36.75,36.75,42.5,
+                        80,24,18,80,24,18,15]},
+        "final_variables": ["NO","NAMA KAPAL","BENDERA","PEMILIK / AGEN","GT","WAKTU TIBA","ASAL","WAKTU TAMBAT","WAKTU TOLAK","TUJUAN","MUATAN BONGKAR","JUMLAH MUATAN BONGKAR",
+                      "SATUAN MUATAN BONGKAR","MUATAN MUAT","JUMLAH MUATAN MUAT","SATUAN MUATAN MUAT","LOKASI BONGKAR","KATEGORI"],
+        "summary": {
+            "domestik": {"ranges": ["B","C","D"],"title": ["JUMLAH MUATAN DALAM NEGERI (DOMESTIK)"],"header": ["NAMA MUATAN", "BONGKAR", "MUAT"]},
+            "ekspor": {"ranges": ["F","G","H","I","J"],"title": ["JUMLAH MUATAN LUAR NEGERI (EKSPOR)"],"sub_header": ["NAMA MUATAN", "BONGKAR", "MUAT"]}
+        }
+    },
+
+    "domestic":{
+        "sheet_name": "DOMESTIK",
+        "start_row": 8,
+        "ranges": {"title":["A1:P1","A2:P2"],"sub_title":["A3:P3"],"header":["A5:A6","B5:C5","D5:D6","E5:E6","F5:F6","G5:G6","H5:H6","I5:L5","M5:P5"],"sub_header":["B6",
+                    "C6","I6","J6:K6","L6","M6","N6:O6","P6"],"filler":["A7","B7","C7","D7","E7","F7","G7","H7","I7","J7","K7","L7","M7","N7","O7","P7"]},
+        "texts": {"title":["LAPORAN ASAL DAN TUJUAN PENUMPANG, HEWAN, DAN BARANG UNTUK ANTAR PULAU","DI WILAYAH UPP PULAU BUNYU"],"sub_title":["NAMA BULAN DAN TAHUN"],
+                  "header":["NO.","N A M A","BENDERA","GT","TRAYEK","WAKTU TIBA","WAKTU TOLAK", "B O N G K A R", "M U A T"],"sub_header":["KAPAL","PEMILIK/AGEN","JENIS",
+                  "JUMLAH ORG/TON/UNIT","ASAL","JENIS","JUMLAH ORG/TON/UNIT","TUJUAN"],"filler":["(01)","(02)","(03)","(04)","(05)","(06)","(07)","(08)","(09)","(10)",
+                  "(11)","(12)","(13)","(14)","(15)","(16)"]},
+        "pixel_size": {"default_height": 30, "row":[18.75,18.75,18.75,18.75,18.75,37.5,22.5],"column": [6.5,70,49,29,14.5,12.5,22,25,34.5,15,10,26,34.5,15,10,26]},
+        "final_variables": ["NO","NAMA KAPAL","PEMILIK / AGEN","BENDERA","GT","JENIS TRAYEK","WAKTU TIBA","WAKTU TOLAK","MUATAN BONGKAR","JUMLAH MUATAN BONGKAR",
+                      "SATUAN MUATAN BONGKAR","ASAL","MUATAN MUAT","JUMLAH MUATAN MUAT","SATUAN MUATAN MUAT","TUJUAN"]
+    },
+
+    "export":{
+        "sheet_name": "EKSPOR",
+        "start_row": 8,
+        "ranges": {"title":["A1:Q1","A2:Q2"],"sub_title":["A3:Q3"],"header":["A5:A6","B5:C5","D5:D6","E5:E6","F5:F6","G5:G6","H5:H6","I5:L5","M5:P5","Q5:Q6"],"sub_header":
+                   ["B6","C6","I6","J6:K6","L6","M6","N6:O6","P6"],"filler":["A7","B7","C7","D7","E7","F7","G7","H7","I7","J7","K7","L7","M7","N7","O7","P7","Q7"]},
+        "texts": {"title":["LAPORAN ASAL DAN TUJUAN PENUMPANG, HEWAN, DAN BARANG UNTUK ANTAR PULAU","DI WILAYAH UPP PULAU BUNYU"],"sub_title":["NAMA BULAN DAN TAHUN"],
+                  "header":["NO.","N A M A","BENDERA","GT","TRAYEK","WAKTU TIBA","WAKTU TOLAK", "B O N G K A R", "M U A T", "SHIPPER"],"sub_header":["KAPAL","PEMILIK/AGEN",
+                  "JENIS","JUMLAH ORG/TON/UNIT","ASAL","JENIS","JUMLAH ORG/TON/UNIT","TUJUAN"],"filler":["(01)","(02)","(03)","(04)","(05)","(06)","(07)","(08)","(09)","(10)",
+                  "(11)","(12)","(13)","(14)","(15)","(16)","(17)"]},
+        "pixel_size": {"default_height": 30, "row":[18.75,18.75,18.75,18.75,18.75,37.5,22.5],"column": [6.5,70,49,29,14.5,12.5,22,25,34.5,15,10,25,34.5,15,10,25,25]},
+        "final_variables": ["NO","NAMA KAPAL","PEMILIK / AGEN","BENDERA","GT","JENIS TRAYEK","WAKTU TIBA","WAKTU TOLAK","MUATAN BONGKAR","JUMLAH MUATAN BONGKAR",
+                      "SATUAN MUATAN BONGKAR","ASAL","MUATAN MUAT","JUMLAH MUATAN MUAT","SATUAN MUATAN MUAT","TUJUAN","SHIPPER"]
+    },
+
+    "empty":{
+        "sheet_name": "TANPA MUATAN",
+        "start_row": 7,
+        "ranges": {"title":["A1:J1","A2:J2"],"sub_title":["I3:J3"],"header":["A4:A5","B4:D4","E4","F4:G4","H4","I4:J4"],"sub_header":["B5","C5","D5","E5","F5","G5",
+                   "H5","I5","J5"],"filler":["A6","B6","C6","D6","E6","F6","G6","H6","I6","J6"]},
+        "texts": {"title":["LAPORAN BULANAN KEGIATAN OPERASIONAL KAPAL TANPA MUATAN","KANTOR UNIT PENYELENGGARA PELABUHAN KELAS III PULAU BUNYU"],"sub_title":["NAMA BULAN DAN TAHUN"],
+                  "header":["NO.","N A M A","UKURAN KAPAL","TIBA","TAMBAT","BERANGKAT"],"sub_header":["KAPAL","BENDERA","PEMILIK/AGEN","GT","WAKTU","PELABUHAN ASAL","WAKTU","WAKTU","PELABUHAN TUJUAN"],
+                  "filler":["(01)","(02)","(03)","(04)","(05)","(06)","(07)","(08)","(09)","(10)"]},
+        "pixel_size": {"default_height": 30, "row":[24.75,24.75,30,84.75,30,24.75],"column": [10,80,37,77,16,36.5,42,36.5,36.5,42]},
+        "final_variables": ["NO","NAMA KAPAL","BENDERA","KEAGENAN","GT","WAKTU TIBA","ASAL","WAKTU TAMBAT","WAKTU TOLAK","TUJUAN MUAT","MUATAN BONGKAR","MUATAN MUAT"]
+    },
+
+    "load_human":{
+        "sheet_name": "PENUMPANG",
+        "start_row": 8,
+        "ranges": {"title":["A1:Q1","A2:Q2"],"sub_title":["A3:Q3"],"header":["A5:A6","B5:C5","D5:D6","E5:E6","F5:F6","G5:G6","H5:H6","I5:L5","M5:P5"],"sub_header":["B6",
+                    "C6","I6","J6:K6","L6","M6","N6:O6","P6"],"filler":["A7","B7","C7","D7","E7","F7","G7","H7","I7","J7","K7","L7","M7","N7","O7","P7"]},
+        "texts": {"title":["LAPORAN ASAL DAN TUJUAN PENUMPANG, HEWAN, DAN BARANG UNTUK ANTAR PULAU","DI WILAYAH UPP PULAU BUNYU"],"sub_title":["NAMA BULAN DAN TAHUN"],
+                  "header":["NO.","N A M A","BENDERA","GT","TRAYEK","WAKTU TIBA","WAKTU TOLAK", "B O N G K A R", "M U A T"],"sub_header":["KAPAL","PEMILIK/AGEN","JENIS",
+                  "JUMLAH ORG/TON/UNIT","ASAL","JENIS","JUMLAH ORG/TON/UNIT","TUJUAN"],"filler":["(01)","(02)","(03)","(04)","(05)","(06)","(07)","(08)","(09)","(10)",
+                  "(11)","(12)","(13)","(14)","(15)","(16)"]},
+        "pixel_size": {"default_height": 30, "row":[18.75,18.75,18.75,18.75,18.75,37.5,22.5],"column": [6.5,70,49,29,14.5,12.5,22,25,34.5,15,10,25,34.5,15,10,25]},
+        "final_variables": ["NO","NAMA KAPAL","PEMILIK / AGEN","BENDERA","GT","JENIS TRAYEK","WAKTU TIBA","WAKTU TOLAK","MUATAN BONGKAR","JUMLAH MUATAN BONGKAR",
+                      "SATUAN MUATAN BONGKAR","ASAL","MUATAN MUAT","JUMLAH MUATAN MUAT","SATUAN MUATAN MUAT","TUJUAN","JENIS BARANG","JENIS MUATAN"],
+        "summary": {"ranges": ["B","C","D"],"header": ["JUMLAH MUATAN DALAM NEGERI (DOMESTIK)"],"sub_header": ["NAMA MUATAN", "BONGKAR", "MUAT"]}
+    },
+
+    "load_soil":{
+        "sheet_name": "TANAH",
+        "start_row": 8,
+        "ranges": {"title":["A1:Q1","A2:Q2"],"sub_title":["A3:Q3"],"header":["A5:A6","B5:C5","D5:D6","E5:E6","F5:F6","G5:G6","H5:H6","I5:L5","M5:P5"],"sub_header":["B6",
+                    "C6","I6","J6:K6","L6","M6","N6:O6","P6"],"filler":["A7","B7","C7","D7","E7","F7","G7","H7","I7","J7","K7","L7","M7","N7","O7","P7"]},
+        "texts": {"title":["LAPORAN ASAL DAN TUJUAN PENUMPANG, HEWAN, DAN BARANG UNTUK ANTAR PULAU","DI WILAYAH UPP PULAU BUNYU"],"sub_title":["NAMA BULAN DAN TAHUN"],
+                  "header":["NO.","N A M A","BENDERA","GT","TRAYEK","WAKTU TIBA","WAKTU TOLAK", "B O N G K A R", "M U A T"],"sub_header":["KAPAL","PEMILIK/AGEN","JENIS",
+                  "JUMLAH ORG/TON/UNIT","ASAL","JENIS","JUMLAH ORG/TON/UNIT","TUJUAN"],"filler":["(01)","(02)","(03)","(04)","(05)","(06)","(07)","(08)","(09)","(10)",
+                  "(11)","(12)","(13)","(14)","(15)","(16)"]},
+        "pixel_size": {"default_height": 30, "row":[18.75,18.75,18.75,18.75,18.75,37.5,22.5],"column": [6.5,70,49,29,14.5,12.5,22,25,34.5,15,10,25,34.5,15,10,25]},
+        "final_variables": ["NO","NAMA KAPAL","PEMILIK / AGEN","BENDERA","GT","JENIS TRAYEK","WAKTU TIBA","WAKTU TOLAK","MUATAN BONGKAR","JUMLAH MUATAN BONGKAR",
+                      "SATUAN MUATAN BONGKAR","ASAL","MUATAN MUAT","JUMLAH MUATAN MUAT","SATUAN MUATAN MUAT","TUJUAN","JENIS BARANG","JENIS MUATAN"],
+        "summary": {"ranges": ["B","C","D"],"header": ["JUMLAH MUATAN DALAM NEGERI (DOMESTIK)"],"sub_header": ["NAMA MUATAN", "BONGKAR", "MUAT"]}
+    }
+}
